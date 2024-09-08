@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --dark-blue:#262E38;
+    --light-grey:#969FAD;
+    --orange:#FC7614;
+    --white:#FFFFFF;
+    --very-dark-blue:#131518;
+    --black-for-gradient: rgb(35,42,52);
+    --black-gradient:'radial-gradient(circle, rgba(35,42,52,1) 0%, rgba(24,30,39,1) 100%)';
+
+
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    marging:0;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+}
