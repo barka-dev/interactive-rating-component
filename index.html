@@ -7,28 +7,43 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
-  <script defer src="./rateComponent.js"></script>
-  <script defer src="./resultComponent.js"></script>
+  <link rel="stylesheet" href="./style.css">
   <script defer src="./script.js"></script>
-  
 
 </head>
 <body>
   <main>
-    <!-- <rate-component></rate-component> -->
-    
-    
+    <article class="rate_container">
+      <img src="./images/icon-star.svg" alt="rate icon">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <form action="">
+          <div>
+              <label tabindex="0" for="rate-one">
+                  <input type="radio" name="radios" id="rate-one" value="1">1
+              </label>
+              <label tabindex="0" for="rate-two">
+                  <input type="radio" name="radios" id="rate-two" value="2">2
+              </label>
+              <label tabindex="0" for="rate-three">
+                  <input type="radio" name="radios" id="rate-three" value="3">3
+              </label>
+              <label tabindex="0" for="rate-four">
+                  <input type="radio" name="radios" id="rate-four" value="4">4
+              </label>
+              <label tabindex="0" for="rate-five">
+                  <input type="radio" name="radios" id="rate-five" value="5">5
+              </label>
+          </div>
+          <button>Submit</button>
+      </form>
+    </article>
+    <article class="result_container">
+      <img src="./images/illustration-thank-you.svg" alt="Thank you icon">
+      <span>You selected 4 out of 5</span>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </article> 
   </main>
-  <!-- Thank you state start -->
-
-  <!-- You selected Add rating here out of 5 -->
-
-  <!-- Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch! -->
-
-  <!-- Thank you state end -->
-
 </body>
 </html>
