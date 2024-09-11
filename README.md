@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/barka-dev/interactive-rating-component.git]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://barka-dev.github.io/interactive-rating-component/]
 
 ## My process
 
