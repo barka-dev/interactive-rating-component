@@ -19,13 +19,19 @@ radios.forEach((radio)=>{
 })
 
 const getSelectedRate = ()=>{
-    const selected = document.querySelector("input[type='radio']:checked").value;
+    const input = document.querySelector("input[type='radio']:checked");
+    const selected = input ? input.value : false;
     return selected;
 }
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
-    selected_rate.textContent = getSelectedRate();
-    rate_container.style.display = 'none';
-    result_container.style.display = 'flex';
+    const value_selected = getSelectedRate();
+    if(value_selected){
+        selected_rate.textContent = getSelectedRate();
+        rate_container.style.display = 'none';
+        result_container.style.display = 'flex';
+    }else{
+        alert("Select a rate from 1 to 5")
+    }
 })
